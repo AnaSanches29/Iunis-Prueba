@@ -1,0 +1,268 @@
+    * {
+    margin: 0 0 0;
+    padding: 0;
+    border: none;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #00163A;
+      color: white;
+      padding: 14px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      -webkit-box-pack: justify;
+      margin-left: -15px;
+      margin-right: -15px;
+      font-size: 20px;
+      width: 1325px;
+      position: fixed;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      max-height: 100%;
+      margin-top: 0px;
+    }
+
+    .logo img {
+      height: 123px;
+      margin-right: 25px;
+      margin-left: 25px;
+      
+    }
+
+    .eslogan {
+      font-size: 16px;
+      max-width: 350px;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: normal;
+      float: left;
+      padding: 0 14px;
+      font-size: 14px;
+      text-align: -webkit-match-parent;
+      line-height: 1.68;
+    }
+
+    
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background-color: #0762bd;
+      top: 100%;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      padding: 10px;
+    }
+
+    .hero {
+      position: static;
+      background: url("https://iunis.edu.mx/wp-content/uploads/2024/10/24101.jpg") center center / cover no-repeat;
+      background-attachment: fixed;
+      background-position:50% 46px;
+      overflow: hidden;
+      width: 1338px;
+      height: 800px;
+      opacity: 1;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      -webkit-box-pack: justify;
+    }
+
+    .contacto-btn {
+      background-color: #4fd64f;
+      color: white;
+      font-size: 12px;
+      padding: 15px 25px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: -120px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .contacto-btn:hover {
+      background-color: #3bb63b;
+    }
+
+    .contacto-btn2 {
+      background-color: #6dab3c;
+      color: white;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: normal;
+      border-color: #6dab3c;
+      border-radius: 5px;
+      margin-bottom: 80px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .contacto-btn2:hover {
+      background-color: #579e21;
+    }
+
+    .experiencia {
+      font-size: 25px;
+      justify-content: center;
+      text-align: center;
+      font-weight: 600;
+      line-height: 2;
+      font-family: Arial, sans-serif;
+      color: #00102E;
+      margin-top: 173px;
+      margin-bottom: 20px;
+    }
+
+    .imagen1 img {
+      height: auto;
+      width: 1260px;
+      vertical-align: top;
+      border-style: none;
+      box-sizing: border-box;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+     .imagen2 img {
+      height: auto;
+      width: 628px;
+      vertical-align:middle;
+      border-style: none;
+      box-sizing: border-box;
+      margin-inline-start: auto 40px;
+      margin-left: 40px;
+      margin-inline-end: -40px;
+      justify-content: flex-start;
+      margin-top: 35px;
+    }
+
+     .ofertaedu {
+      text-transform: uppercase;
+      font-size: 25px;
+      justify-content: center;
+      text-align: center;
+      font-weight: 600;
+      line-height: 2;
+      font-family: Arial, sans-serif;
+      color: #00102E;
+      margin-top: 112px;
+      margin-bottom: 13px;
+     }
+
+    .programs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 40px;
+      width:1256px;
+      height: 1892px;
+      margin-bottom: 90px;
+    }
+    .program {
+      
+      color: #00163A;
+      padding: 10px;
+      text-align: center;
+      margin-top: 10px;
+      width: 390px;
+    }
+    .program img {
+      max-width: 100%;
+      height: auto;
+      
+    }
+
+    .derechos {
+      background-color: #00163A;
+      color: white;
+      text-align-last:left ;
+      padding: 70px;
+      display: block;
+      font-size: 16px;
+      margin-top: 60px;
+      width: 1210px;
+      
+    }
+
+    h2{
+      color: #00163A;
+      font-size: 25px;
+      margin-top: 1.2em;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+      font-style: normal;
+      line-height: 1.2;
+      font-family: Arial, sans-serif;
+      margin-left: 0;
+      margin-bottom: 0;
+
+    }
+
+    p {
+      text-transform: none;
+      text-align: center;
+      margin-bottom: 0;
+      margin-block-start: 0;
+      box-sizing: border-box;
+      margin-block-end: 3em;
+      unicode-bidi: isolate;
+      font-size: 15px;
+      line-height: 1.68;
+      font-family: Archivo, sans-serif;
+      color: #000000;
+    }
+    
+    .razones {
+      text-transform: uppercase;
+      font-size: 20px;
+      justify-content: center;
+      text-align: center;
+      font-weight: 600;
+      font-family: Arial, sans-serif;
+      color: #00102E;
+      margin-bottom: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .razones img {
+      margin-left: 0;
+      margin-right: 0;
+      width: 1325px;
+      height: auto;
+    }
