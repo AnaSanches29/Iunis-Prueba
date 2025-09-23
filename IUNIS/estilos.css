@@ -254,7 +254,7 @@
       text-align: center;
       font-weight: 600;
       font-family: Arial, sans-serif;
-      color: #f50c52;
+      color: #000;
       margin-bottom: 0;
       margin-left: 20px;
       margin-right: 20px;
@@ -293,4 +293,5 @@
     .azul {
       background-color: #1d3557;
       color: #fff;
+
     }
