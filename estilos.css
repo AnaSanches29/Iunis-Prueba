@@ -254,15 +254,43 @@
       text-align: center;
       font-weight: 600;
       font-family: Arial, sans-serif;
-      color: #00102E;
+      color: #f50c52;
       margin-bottom: 0;
       margin-left: 20px;
       margin-right: 20px;
     }
 
-    .razones img {
-      margin-left: 0;
-      margin-right: 0;
-      width: 1325px;
-      height: auto;
+  .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 50px;
+      flex-wrap: wrap;
+    }
+
+    .circulo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #000;
+    }
+
+    .amarillo {
+      background-color: #fff95e;
+    }
+
+    .verde {
+      background-color: #9af157;
+    }
+
+    .azul {
+      background-color: #1d3557;
+      color: #fff;
     }
