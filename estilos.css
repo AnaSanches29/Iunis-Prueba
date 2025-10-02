@@ -16,10 +16,8 @@
       align-items: center;
       justify-content: space-between;
       -webkit-box-pack: justify;
-      margin-left: -15px;
-      margin-right: -15px;
       font-size: 20px;
-      width: 1325px;
+      width: 1360px;
       position: fixed;
     }
 
@@ -43,7 +41,7 @@
       margin: 0;
     }
 
-    nav ul {
+       nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
@@ -66,22 +64,32 @@
       line-height: 1.68;
     }
 
-    
+     .submenu{
+      color: white;
+      text-decoration: none;
+      font-weight: normal;
+      float: left;
+      padding: 0 14px;
+      font-size: 12px;
+      text-align: -webkit-match-parent;
+      line-height: 1.68;
+      text-align: left;
+      width: 100%;
+    }
 
     nav ul li ul {
       display: none;
       position: absolute;
-      background-color: #0762bd;
+      background-color: #233452;
       top: 100%;
+      width: 200px;
+      padding: 10px;
     }
 
     nav ul li:hover ul {
       display: block;
     }
 
-    nav ul li ul li {
-      padding: 10px;
-    }
 
     .hero {
       position: static;
@@ -89,7 +97,7 @@
       background-attachment: fixed;
       background-position:50% 46px;
       overflow: hidden;
-      width: 1338px;
+      width: 1360px;
       height: 800px;
       opacity: 1;
       display: flex;
@@ -135,31 +143,20 @@
       background-color: #579e21;
     }
 
-    .experiencia {
-      font-size: 25px;
-      justify-content: center;
-      text-align: center;
-      font-weight: 600;
-      line-height: 2;
-      font-family: Arial, sans-serif;
-      color: #00102E;
-      margin-top: 173px;
-      margin-bottom: 20px;
-    }
-
     .imagen1 img {
       height: auto;
-      width: 1260px;
+      width: 1277px;
       vertical-align: top;
       border-style: none;
       box-sizing: border-box;
       margin-left: 40px;
       margin-right: 40px;
+      margin-top: 50px;
     }
 
      .imagen2 img {
       height: auto;
-      width: 628px;
+      width: 635px;
       vertical-align:middle;
       border-style: none;
       box-sizing: border-box;
@@ -170,7 +167,7 @@
       margin-top: 35px;
     }
 
-     .ofertaedu {
+     #ofertaedu {
       text-transform: uppercase;
       font-size: 25px;
       justify-content: center;
@@ -183,14 +180,14 @@
       margin-bottom: 13px;
      }
 
-    .programs {
+    #programs {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
       padding: 40px;
-      width:1256px;
-      height: 1892px;
+      width:1360px;
+      height: 1980px;
       margin-bottom: 90px;
     }
     .program {
@@ -207,33 +204,21 @@
       
     }
 
-    .derechos {
-      background-color: #00163A;
-      color: white;
-      text-align-last:left ;
-      padding: 70px;
-      display: block;
-      font-size: 16px;
-      margin-top: 60px;
-      width: 1210px;
-      
-    }
+    .carreras{
+    color: #00163A;
+    font-size: 25px;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+    margin-left: 0;
+    margin-bottom: 0;
+}
 
-    h2{
-      color: #00163A;
-      font-size: 25px;
-      margin-top: 1.2em;
-      margin-bottom: 0.5em;
-      text-transform: uppercase;
-      font-style: normal;
-      line-height: 1.2;
-      font-family: Arial, sans-serif;
-      margin-left: 0;
-      margin-bottom: 0;
 
-    }
-
-    p {
+    .descripcion {
       text-transform: none;
       text-align: center;
       margin-bottom: 0;
@@ -247,20 +232,21 @@
       color: #000000;
     }
     
-    .razones {
+  
+    .subtitulo{
+      font-size: 38px;
+      margin-top: 50px;
       text-transform: uppercase;
-      font-size: 20px;
-      justify-content: center;
       text-align: center;
-      font-weight: 600;
       font-family: Arial, sans-serif;
-      color: #f50c52;
+      color: #00163A;
       margin-bottom: 0;
-      margin-left: 20px;
-      margin-right: 20px;
+      font-weight: 600;
+      width: 1360px;
     }
 
-  .contenedor {
+
+    #contenedor {
       display: flex;
       justify-content: center;
       gap: 40px;
@@ -269,17 +255,20 @@
     }
 
     .circulo {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      border-radius: 90%;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 20px;
-      font-weight: bold;
-      font-size: 18px;
+      padding: 5px;
+      font-weight:8000;
+      font-size: 20px;
       color: #000;
+      letter-spacing: -1px;
+      line-height: 30px;
+      
     }
 
     .amarillo {
@@ -294,3 +283,101 @@
       background-color: #1d3557;
       color: #fff;
     }
+
+    #ubicacion {
+      text-transform: uppercase;
+      justify-content: center;
+      text-align: center;
+      font-weight: 600;
+      font-family: Arial, sans-serif;
+      color: #00163A;
+      margin-top: 120px;
+      width: 1800px;
+      margin-left: -40px;
+      margin-right: -40px;
+    }
+
+     .mapa {
+      margin-top: 60px;
+      width: 1240px;
+      height: 450px;
+      margin-right: 20px;
+      margin-left: 40px;
+      display: flex;
+    }
+
+    footer{
+      -webkit-box-pack: justify;
+      width: 1390px; 
+      margin-top: 60px;
+    }
+
+    .contact{
+      color: white;
+      text-align:left ;
+      padding: 50px;
+      font-size: 13px;
+      width:flex;
+      background-color: #00163A;
+      text-transform: initial;
+    }
+
+    .social-icons{
+      text-align: right;
+      margin-top: -105px;
+      width: 1360px;
+      height: 80px;
+      padding-right: 30px;
+      background-color: #00163A;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 15px;
+      margin-right: 10px;
+      transition: 0.3s;
+      background-color: #00163A;
+      margin-top: 50px;
+    }
+
+    .social-icons a:hover {
+      color: #1abc9c; /* cambia color al pasar el mouse */
+    }
+
+     .loader {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    transition: opacity 0.7s, visibility 0.75s;
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader img {
+    animation: latido 0.75s ease infinite;
+
+}
+
+@keyframes latido {
+    0% {
+        transform: scale(0.9);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
